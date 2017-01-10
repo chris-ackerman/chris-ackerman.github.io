@@ -16,7 +16,7 @@ a button for education, work experience, leadership experience, skills, interest
  .nav {
  	display: inline-block;
  	opacity: .75;
- 	width: 100%;
+ 	width: 50%;
  	height: 100px;
  }
 
