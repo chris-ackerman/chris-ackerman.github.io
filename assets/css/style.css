@@ -120,7 +120,7 @@ a button for education, work experience, leadership experience, skills, interest
  .nav #contact {
 	position: relative;
     display: inline-block;
-	top: 0px;
+	top: 3px;
 	width:15.6%;
     height:92%;
     line-height:100%;
