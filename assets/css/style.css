@@ -1,0 +1,765 @@
+/* one continuous page
+first "page" is a picture of me with a welcome statement and an arrow button that takes the visitor to a row of buttons
+a button for education, work experience, leadership experience, skills, interests/hobbies*/
+/* --------------------------------------------------------------- */
+/* here is where my nav bar styling goes */
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif, helvetica;
+ 	overflow-y: hidden;
+ }
+
+ p {
+ 	font-size: 5;
+ }
+ .nav {
+ 	display: inline-block;
+ 	opacity: .75;
+ 	width: 100%;
+ 	height: 125px;
+ }
+
+ body {
+ 	color: white;
+ 	text-align: center;
+ 	background-image: url("http://7-themes.com/data_images/collection/9/4507105-minimalist-wallpapers.png");
+ }
+
+ img-circle {
+ 	border-radius: 50%;
+ }
+
+ .nav button { 
+	background-color: none;
+	top: 0px;
+	position: relative;
+ }
+
+ button {
+ 	font-size: 36;
+ }
+
+
+ .nav #work_experience {
+	position: relative;
+	top: 8px;
+	display: inline-block;
+	width:110px;
+    height:110px;
+    line-height:110px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#336699;
+    text-align:center;
+    text-decoration:none;
+    background: #336699;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+ }
+
+ .nav #education {
+	position: relative;
+	top: 8px;
+	width:110px;
+    height:110px;
+    line-height:110px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#3366cc;
+    text-align:center;
+    text-decoration:none;
+    background: #3366cc;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+ }
+
+ .nav #leadership {
+	position: relative;
+	top: 8px;
+	width:110px;
+    height:110px;
+    line-height:110px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#003399;
+    text-align:center;
+    text-decoration:none;
+    background: #003399;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+ }
+
+ .nav #interests {
+	position: relative;
+	top: 8px;
+	width:110px;
+    height:110px;
+    line-height:110px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#000099;
+    text-align:center;
+    text-decoration:none;
+    background: #000099;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+ }
+
+ .nav #contact {
+	position: relative;
+	top: 8px;
+	width:110px;
+    height:110px;
+    line-height:110px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+ }
+
+/* --------------------------------------------------------------- */
+/* here is where my content styling goes */
+
+a {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+ .content div {
+	display: inline-block;
+	border: 2px solid;
+	margin: auto;
+ }
+
+/* everything below this line is for my bio content
+-------------------------------------------------*/
+ #bio h1 {
+ 	text-align: center;
+ 	position: relative;
+ 	top: 250px;
+ 	border: none;
+ }
+
+ #bio h2 {
+ 	text-align: center;
+ 	position: relative;
+ 	top: 250px;
+ }
+
+ #bio_to_pic {
+ 	position: relative;
+	top: 325px;
+	width:80px;
+    height:80px;
+    line-height:80px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+ }
+
+ #bio_to_work {
+ 	position: relative;
+	top: 325px;
+	width:80px;
+    height:80px;
+    line-height:80px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+ }
+
+ h3 {
+ 	opacity: 1;
+ 	position: relative;
+ 	top: 272px;
+ }
+
+ 
+
+ #bio_container {
+ 	width: 90%;
+	height: 575px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	right: 0px;
+	top: 0px;
+	opacity: 1;
+	border: none;
+ }
+
+ .bio_content {
+ 	opacity: 1;
+ 	width:90%;
+ 	height:575px;
+ 	border: 2px solid;
+ 	position: relative;
+ 	top: 0px;
+ 	right: 0px;
+ 	border: none;
+ }
+
+ .bio_content h1 {
+ 	position: relative;
+ 	top: 150px;
+ }
+
+ .bio_content h2 {
+ 	position: relative;
+ 	top: 160px;
+ }
+
+ .bio_content h3 {
+ 	position: relative;
+ 	top: -225px;
+ 	right: 350px;
+ }
+
+ div .bio_content {
+	border: none;
+}
+
+#mexico {
+	border-radius: 50%;
+	position: relative;
+	top: 50px;
+}
+ 
+ #face {
+ 	position: relative;
+ 	top: -225px;
+ 	right: 375px;
+ }
+ /* -------------------------------------------------
+ everything above this line is for my bio content */
+
+/* in between these comments is everything for work experience 
+-------------------------------------------------------------- */
+#work_experience {
+	background-color: #336699;
+	height: 670px;
+	width: 100%;
+	opacity: .75;
+ }
+
+ #work_to_bio {
+ 	position: relative;
+	top: 563px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 550px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    float: left;
+ }
+
+#work_to_edu {
+	position: relative;
+	top: 55px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 25px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    
+}
+
+/* I need to make an outer container with a smaller div that is overflow-x: scroll; */
+/* it will be a small outer container with overflow-x:scroll; and then the content div will be much much wider */
+
+#work_container {
+	width: 90%;
+	height: 500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	right: 35px;
+	top: 55px;
+	opacity: 1;
+}
+ .work_content {
+ 	opacity: 1;
+ 	width:400%;
+ 	height:500px;
+ 	border: 2px solid;
+ 	position: relative;
+ 	top: -5px;
+ 	right: 40px;
+ }
+
+ #work_content_1, #work_content_2, #work_content_3 {
+
+ 	opacity: 1;
+ 	width:1182px;
+ 	height: 100%;
+ 	display: inline-block;
+ 	float: left;
+ }
+
+ #work_experience h2 {
+ 	position: relative;
+ 	right: 20px;
+ }
+ 
+ #work_content_1 img {
+ 	position: relative;
+ 	top:40px;
+ 	opacity: 1;
+ }
+
+ #work_content_2 img {
+ 	position: relative;
+ 	top: 75px;
+ }
+
+ #work_content_3 img {
+ 	position: relative;
+ 	top: 40px;
+ }
+
+#instruction {
+	position: relative;
+	top: 130px;
+}
+
+ /* --------------------------------------------------
+everything above this line is for work experience */
+
+ h1,h3 {
+ 	position: relative;
+ 	top: 20px;
+ 	color: white;
+ }
+
+ h2 {
+ 	position: relative;
+ 	top: 20px;
+ 	color: white;
+ 	font-style: italic;
+ }
+
+ /* everything below this line is for education
+ -------------------------------------------- */
+
+
+ #edu_to_work {
+ 	position: relative;
+	top: 563px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 550px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    float: left;
+ }
+
+ #edu_to_lead {
+ 	position: relative;
+	top: 55px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 625px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    float: left;
+ }
+ .content #education {
+	background-color: rgba(51,102,204,.5);
+	position: relative;
+	top:0px;
+	height: 670px;
+	width: 100%;
+ }
+
+ #edu_container {
+ 	width: 90%;
+	height: 500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	right: 35px;
+	top: 55px;
+	opacity: 1;
+}
+
+ .edu_content {
+ 	opacity: 1;
+ 	width:500%;
+ 	height:500px;
+ 	border: 2px solid;
+ 	position: relative;
+ 	top: -5px;
+ 	right: 40px;
+ }
+
+ #edu_content_1, #edu_content_2, #edu_content_3 {
+ 	opacity: 1;
+ 	width:1182px;
+ 	height: 100%;
+ 	display: inline-block;
+ 	float: left;
+ }
+
+ #edu_content_1 img {
+ 	position: relative;
+ 	top: 25px;
+ }
+
+ #education h2 {
+ 	position: relative;
+ 	right: 0px;
+ }
+
+ #edu_content_1 h1 {
+ 	color: #cc0000;
+ }
+
+
+#edu_content_2 img {
+	position: relative;
+	top: 40px;
+	right: 10px;
+}
+
+#edu_content_3 img {
+	position: relative;
+	top: 60px;
+}
+
+ /* -------------------------------------------
+ everything above this line is for education */
+
+
+/* everything below this line is for leadership
+--------------------------------------------*/
+ .content #leadership {
+	background-color: rgba(0,51,153,.5);
+	position: relative;
+	top: 0px;
+	height: 670px;
+	width: 100%;
+ }
+
+ #lead_container {
+ 	width: 90%;
+	height: 500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	right: 35px;
+	top: 55px;
+	opacity: 1;
+ }
+
+ .lead_content {
+ 	opacity: 1;
+ 	width:500%;
+ 	height:500px;
+ 	border: 2px solid;
+ 	position: relative;
+ 	top: -5px;
+ 	right: 40px;
+ }
+
+ #lead_content_1, #lead_content_2 {
+ 	opacity: 1;
+ 	width:1182px;
+ 	height: 100%;
+ 	display: inline-block;
+ 	float: left;
+ }
+
+ #lead_content_1 img {
+ 	position: relative;
+ 	top: 60px;
+ }
+
+ #leadership h2 {
+ 	position: relative;
+ 	right: 25px;
+ }
+
+ #lead_content_2 img {
+ 	position: relative;
+ 	top: 60px;
+ }
+
+ #lead_to_edu {
+ 	position: relative;
+	top: 563px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 550px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    float: left;
+ }
+
+ #lead_to_inter {
+ 	position: relative;
+	top: 55px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 625px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    float: left;
+ }
+
+ #instruction_2 {
+ 	position: relative;
+ 	top:65px;
+ }
+
+ /*---------------------------------------------
+ everything above this line is for leadership */
+
+ /* everything below this line is for interets
+ ------------------------------------------ */
+
+ .content #interests {
+	background-color:rgba(0,0,153,.5);
+	position: relative;
+	top: 0px;
+	height: 670px;
+	width: 100%;
+ }
+
+ #inter_container {
+ 	width: 90%;
+	height: 500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	right: 35px;
+	top: 55px;
+	opacity: 1;
+ }
+
+ .inter_content {
+ 	opacity: 1;
+ 	width:500%;
+ 	height:500px;
+ 	border: 2px solid;
+ 	position: relative;
+ 	top: -5px;
+ 	right: 40px;
+ }
+
+ #inter_content_1, #inter_content_2 {
+ 	opacity: 1;
+ 	width:1182px;
+ 	height: 100%;
+ 	display: inline-block;
+ 	float: left;
+ }
+
+ #inter_content_1 img {
+ 	opacity: 1;
+ 	position: relative;
+ 	top:50px;
+ 	border: 1px solid white;
+ 	border-radius: 20px;
+ 	left: 20px;
+ }
+
+ #interests h2 {
+ 	position: relative;
+ 	right: 15px;
+ }
+
+ #inter_content_2 img {
+ 	position: relative;
+ 	top: 40px;
+ 	border: 1px solid white;
+ 	border-radius: 20px;
+ }
+
+ #inter_to_lead {
+ 	position: relative;
+	top: 563px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 550px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    float: left;
+ }
+
+ #inter_to_cont {
+ 	position: relative;
+	top: 55px;
+	width:70px;
+    height:70px;
+    line-height:70px;
+    left: 625px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+    float: left;
+ }
+
+#instruction_3 {
+	position: relative;
+	top:53px;
+}
+
+ /*-------------------------------------------
+ everything above this line is for interets */
+
+ .content #contact {
+ 	height: 800px;
+ 	width: 100%;
+ 	border: none;
+ }
+
+ #cont_to_top {
+ 	position: relative;
+	top: 0px;
+	width:70px;
+    height:70px;
+    left: 0px;
+    line-height:70px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#0099cc;
+    text-align:center;
+    text-decoration:none;
+    background: #0099cc;
+    box-shadow: 0 0 3px gray;
+    font-size:60px;
+    font-weight:bold;
+ }
+
+ #cont_container {
+ 	width: 90%;
+ 	height: 800px;
+ 	position: relative;
+ 	right: 35px;
+ 	top: 100px;
+ 	border: none;
+ }
+.cont_content {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	border: none;
+	float: left;
+}
+ #cont_content_1, #cont_content_2 {
+ 	position: relative;
+ 	top: 50px;
+ 	height: 75px;
+ 	width: 100%;
+ 	border: none;
+ 	float: left;
+ }
+
+#cont_content_3 {
+	position: relative;
+ 	top: 50px;
+ 	height: 600px;
+ 	width: 100%;
+ 	border: none;
+}
+
+#cont_content_3 #cont_to_top {
+	position: relative;
+	top: 100px;
+}
+ div .cont_content {
+ 	border: none;
+ }
+
+ 
+
+
+
