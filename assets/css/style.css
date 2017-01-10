@@ -47,7 +47,7 @@ a button for education, work experience, leadership experience, skills, interest
 }
  .nav #work_experience {
 	position: relative;
-	top: -10px;
+	top: -15px;
 	display: inline-block;
 	width:15.6%;
     height:92%;
@@ -65,7 +65,7 @@ a button for education, work experience, leadership experience, skills, interest
 
  .nav #education {
 	position: relative;
-	top: -10px;
+	top: -15px;
     display: inline-block;
 	width:15.6%;
     height:92%;
@@ -84,7 +84,7 @@ a button for education, work experience, leadership experience, skills, interest
  .nav #leadership {
 	position: relative;
     display: inline-block;
-	top: -10px;
+	top: -15px;
 	width:15.6%;
     height:92%;
     line-height:100%;
@@ -102,7 +102,7 @@ a button for education, work experience, leadership experience, skills, interest
  .nav #interests {
 	position: relative;
     display: inline-block;
-	top: -10px;
+	top: -15px;
 	width:15.6%;
     height:92%;
     line-height:100%;
