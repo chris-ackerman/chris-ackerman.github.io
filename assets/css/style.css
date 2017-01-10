@@ -40,7 +40,9 @@ a button for education, work experience, leadership experience, skills, interest
  	font-size: 36;
  }
 
-
+.nav p {
+    font-size: 12px;
+}
  .nav #work_experience {
 	position: relative;
 	top: 0px;
