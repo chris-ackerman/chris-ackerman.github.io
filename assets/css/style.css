@@ -275,7 +275,7 @@ a:link {
 /* in between these comments is everything for work experience 
 -------------------------------------------------------------- */
 #work_experience {
-	background-color: #336699;
+	background-color: #b2ebf0;
 	height: 670px;
 	width: 100%;
 	opacity: .75;
@@ -435,7 +435,7 @@ everything above this line is for work experience */
     float: left;
  }
  .content #education {
-	background-color: rgba(51,102,204,.5);
+	background-color: #b2ebf0;
 	position: relative;
 	top:0px;
 	height: 670px;
@@ -504,7 +504,7 @@ everything above this line is for work experience */
 /* everything below this line is for leadership
 --------------------------------------------*/
  .content #leadership {
-	background-color: rgba(0,51,153,.5);
+	background-color: #b2ebf0;
 	position: relative;
 	top: 0px;
 	height: 670px;
@@ -605,7 +605,7 @@ everything above this line is for work experience */
  ------------------------------------------ */
 
  .content #interests {
-	background-color:rgba(0,0,153,.5);
+	background-color:#b2ebf0;
 	position: relative;
 	top: 0px;
 	height: 670px;
