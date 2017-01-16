@@ -44,7 +44,7 @@ a button for education, work experience, leadership experience, skills, interest
 .nav p {
     font-size: 16px;
     position: relative;
-    top: -35px;
+    top: 0px;
 }
  .nav #work_experience {
 	position: relative;
