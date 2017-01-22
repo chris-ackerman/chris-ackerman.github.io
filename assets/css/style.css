@@ -765,6 +765,10 @@ everything above this line is for work experience */
  	border: none;
 }
 
+#cont_content_4 {
+    border: none;
+}
+
 #cont_content_3 #cont_to_top {
 	position: relative;
 	top: 100px;
